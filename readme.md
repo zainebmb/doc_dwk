@@ -2,14 +2,6 @@
 
 
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-
 
 ## Joern old version Installation
 
@@ -45,12 +37,12 @@ in the last line change "/" with "\" and ":" with ";"
 
 clone this repo: https://github.com/jumormt/DeepWukong
 
-Download this [data] (https://bupteducn-my.sharepoint.com/personal/jackiecheng_bupt_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjackiecheng%5Fbupt%5Fedu%5Fcn%2FDocuments%2FDataset%2FData%2E7z&parent=%2Fpersonal%2Fjackiecheng%5Fbupt%5Fedu%5Fcn%2FDocuments%2FDataset&ga=1] , and unzip it under <project root>/data folder.
+Download this [data] (https://bupteducn-my.sharepoint.com/personal/jackiecheng_bupt_edu_cn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjackiecheng%5Fbupt%5Fedu%5Fcn%2FDocuments%2FDataset%2FData%2E7z&parent=%2Fpersonal%2Fjackiecheng%5Fbupt%5Fedu%5Fcn%2FDocuments%2FDataset&ga=1) , and unzip it under project root/data folder.
 
 now go to configs/dwk.yaml and:
 change joern_path to your local path of the joern-parse file ( preferably absolute path)
 
 
 now run : set PYTHONPATH=.
-then run python src/joern/joern-parse.py -c <config file>
+then run python src/joern/joern-parse.py -c config file
 
